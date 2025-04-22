@@ -226,12 +226,17 @@ button:hover {
 
 .sectionB {
   display: flex;
-  margin-top: 1rem;
-  margin-left: 2rem;
+  /* margin-top: 1rem;
+  margin-left: 2rem; */
 }
 
 .sectionB .sectionBimg {
-  width: 7rem;
+  width: 5rem;
+}
+
+.sectionB .sectionBimg5 {
+  width: 5rem;
+  padding: 0;
 }
 
 .sectionB .sectionBimg2 {
@@ -242,10 +247,17 @@ button:hover {
 .sectionB .sectionBimg4 {
   width: 5rem;
   padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.sectionB .sectionBimg7 {
+  width: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
 }
 
 .sectionB .sectionBimg5 {
-  width: 8rem;
+  width: 5rem;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
 }
@@ -269,7 +281,7 @@ button:hover {
 
 .sectionB .sectionBtext1 {
   padding-top: 3rem;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 }
 
 .sectionB .sectionBtext3 {
@@ -278,7 +290,7 @@ button:hover {
 }
 
 .sectionB .sectionBtext4 {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-left: 1rem;
 }
 
@@ -912,7 +924,7 @@ flex-grid styles
   font-weight: 300;
   color: black;
   text-transform: uppercase;
-  padding-left: 1em;
+  /* padding-left: 1em; */
   padding-bottom: 2rem;
   margin-bottom: 0;
   padding-top: 2rem;
