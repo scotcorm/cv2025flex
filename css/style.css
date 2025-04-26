@@ -939,7 +939,7 @@ flex-grid styles
 }
 
 .feature-content {
-  background-color: black;
+  background-color: hsl(var(--clr-secondary-400));
   color: white;
   padding: 3em;
 }
