@@ -208,7 +208,7 @@ button:hover {
 .linkedInSection .text {
   margin-right: 2rem;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 1rem;
 }
 
 .linkedInSection .link {
@@ -637,11 +637,15 @@ Start Sidebar styles
   height: 4px;
   width: 0px;
   background: orange;
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 
-.sidebar-menu a:hover::after {
-  width: 130px;
+.sidebar-menu ul li a:hover::after {
+  width: 100%;
+}
+
+.sidebar-menu ul li {
+  max-width: 150px;
 }
 
 .sidebar-left {
@@ -1025,7 +1029,7 @@ start Section wrapper styles
   padding: 1rem;
 }
 
-.uw-img {
+/* .uw-img {
   max-width: 100px;
 }
 
@@ -1047,13 +1051,13 @@ start Section wrapper styles
 
 .nu-img {
   max-width: 150px;
-}
+} */
 
 .img-col {
   height: 100%;
   display: flex;
   /* background-color: red; */
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   /* margin-top: auto;
   margin-bottom: auto; */
@@ -1075,7 +1079,7 @@ start Section wrapper styles
   height: 100%;
   /* display: flex; */
   /* background-color: red; */
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-top: auto;
   margin-bottom: auto;
@@ -1115,6 +1119,10 @@ start Section sidebar styles
 .widget-content {
   padding: 0.5em 2em;
 }
+
+/* .sidebar-menu {
+  max-width: 150px;
+} */
 
 .sidebar-menu ul {
   list-style-type: none;
