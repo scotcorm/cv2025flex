@@ -196,6 +196,67 @@ button:hover {
   z-index: -1;
 } */
 
+/* ========================= accordion  */
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1 1 100%; */
+  flex-basis: 100%;
+  /* box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.2); */
+  border-radius: 5px;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+}
+
+.accordion-panel {
+  display: none;
+}
+
+.accordion-control {
+  margin: 1rem;
+}
+
+.courseDescriptions {
+  margin-top: 2rem;
+}
+
+.card-body > ul > li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.accordion-control {
+  /* display: block; */
+  display: flex;
+  /* flex-basis: 100%; */
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.1s;
+  /* min-width: 400px; */
+  width: 90%;
+}
+
+.accordion-control > h3 {
+  padding: 1.5rem;
+  color: black;
+}
+
+.accordion-control:hover,
+.accordion-control:focus,
+.accordion-control:active {
+  /* background: rgba(0, 0, 0, 0.1); */
+  background: #fca70c;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-list {
+  padding-left: 0;
+}
+
 /* ========================= about Scott  */
 
 .linkedInSection {
@@ -295,7 +356,7 @@ button:hover {
 }
 
 .classesTaken {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .employment {
@@ -932,6 +993,7 @@ flex-grid styles
   padding-bottom: 2rem;
   margin-bottom: 0;
   padding-top: 2rem;
+  margin-top: 5rem;
 }
 
 .feature-card {
